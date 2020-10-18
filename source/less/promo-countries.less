@@ -4,10 +4,20 @@
     margin: 0 auto;
 }
 .promo-feedback__dots {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width:870px;
+}
+.promo-feedback__dots::after {
+    content:'';
+    position: absolute;
+    width:870px;
+    height: 1px;
+    background-color:rgba(44, 46, 63, 0.3);
+    top:35px;
+    left:1px;
 }
 .dot {
     font-family: 'Montserrat', sans-serif;
@@ -39,6 +49,16 @@
     background: url(../img/macedonia-slide.jpg) no-repeat;
     background-size: 430px 596px;
     background-position: 481px 41px;
+}
+.slide-montenegro {
+    background: url(../img/montenegro-slide.jpg) no-repeat;
+    background-size: 430px 596px;
+    background-position: 482px 42px;
+}
+.slide-croatia {
+    background: url(../img/croatia-slide.jpg) no-repeat;
+    background-size: 430px 596px;
+    background-position: 483px 43px;
 }
 .left-slide__heading {
     position: relative;
