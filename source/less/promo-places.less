@@ -1,0 +1,89 @@
+.promo-places {
+    margin:0 auto;
+}
+.promo-places__wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+.promo-places__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    line-height: 80px;
+    font-weight: 500;
+    color:#2c2e3f;
+    width:358px;
+    margin-bottom: 64px;
+}
+.promo-places__description {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color:#2c2e3f;
+    opacity: 0.7;
+    width: 358px;
+    margin-bottom: 50px;
+}
+.promo-places__description::before {
+    content: '';
+    position: absolute;
+    width: 229px;
+    height: 4px;
+    background-color: #fe7865;
+    top:-35px;
+    left: 1px;
+}
+.places-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.places-list__item {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    width: 350px;
+    height: 430px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+.places-list__item:nth-child(3n) {
+    margin-right: 0px;
+}
+.places-list__item:nth-child(4) {
+    margin-left: 185px;
+}
+.places-item--greece {
+    background: url(../img/greece.jpg) no-repeat;
+}
+.places-item--albania {
+    background: url(../img/albania.jpg) no-repeat;
+}
+.places-item--macedonia {
+    background: url(../img/macedonia.jpg) no-repeat;
+}
+.places-item--montenegro {
+    background: url(../img/montenegro.jpg) no-repeat;
+}
+.places-item--croatia {
+    background: url(../img/croatia.jpg) no-repeat;
+}
+.places-item__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    background-color: #ffffff;
+    color:#2c2e3f;
+    text-decoration: none;
+    width:215px;
+    height: 61px;
+    margin-top:370px;
+}

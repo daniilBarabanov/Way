@@ -1,0 +1,61 @@
+.page-header {
+    margin:0 auto;
+}
+.page-header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1159px;
+    min-height: 100px;
+    margin:0 auto;
+}
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 479px;
+}
+.navigation-list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-list__item-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color:#141517;
+}
+.navigation-list__item-link--prices {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color:#fe7865;
+}
+.navigation-list__item-phone {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    text-decoration-color: #fe7865;
+    color:#fe7865;
+    padding-left: 25px;
+}
+.navigation-list__item-phone::before {
+    content: '';
+    position: absolute;
+    background: url(../img/phone-icon.svg) no-repeat;
+    background-size: 17px 18px;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    top:0px;
+    left:-10px;
+}
