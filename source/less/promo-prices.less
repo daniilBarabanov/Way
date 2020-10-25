@@ -1,12 +1,23 @@
 .promo-prices__wrapper {
     display: flex;
     flex-direction: row;
+    width:1220px;
+    min-height: 679px;
+    margin: 0 auto;
 }
 .prices-tariff {
     display: flex;
     flex-direction: column;
-    min-width: 370px;
-    min-height: 672px;
+    max-width: 304px;
+    min-height: 596px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.complete-tariff {
+    border:3px solid #fe7865;
+    margin-right: 30px;
 }
 .complete-tariff__top {
     display: flex;
@@ -19,6 +30,7 @@
     line-height: 34px;
     font-weight: 500;
     color:#FE7865;
+    margin-bottom: 30px;
 }
 .complete-tariff__top-price {
     font-family: 'Montserrat', sans-serif;
@@ -26,4 +38,193 @@
     line-height: 34px;
     font-weight: 500;
     color:#FE7865;
+}
+.complete-tariff__description {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 59px;
+}
+.complete-tariff__description::after {
+    content: '';
+    position: absolute;
+    width:310px;
+    height: 1px;
+    background-color:#FE7865;
+    top:80px;
+    left:1px;
+}
+.tariff-list {
+    display: flex;
+    flex-direction: column;
+}
+.tariff-list__item {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-left: 26px;
+    margin-bottom: 15px;
+}
+.tariff-list__item:last-of-type {
+    margin-bottom: 54px;
+}
+.tariff-list__item::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 12px;
+    background: url(../img/path-tick.svg);
+    background-size: 14px 12px;
+    top:9px;
+    left:1px;
+}
+.prices-tariff__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight: 700;
+    min-width: 310px;
+    min-height: 75px;
+    background-color: #fe7865;
+}
+.prices-tariff__link:hover {
+    background-color:#F17D4B;
+}
+.econom-tariff__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.econom-tariff__top-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 500;
+    color:rgba(20,21,23,0.7);
+    margin-bottom: 30px;
+}
+.econom-tariff__top-price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 500;
+    color:rgba(20,21,23,0.7);
+}
+.prices-tariff__description {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 59px;
+}
+.prices-tariff__description::after {
+    content: '';
+    position: absolute;
+    width:310px;
+    height: 1px;
+    background-color:rgba(44, 46, 63, 0.3);
+    top:80px;
+    left:1px;
+}
+.econom-list__item {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-left: 26px;
+    margin-bottom: 15px;
+}
+.econom-list__item:last-of-type {
+    margin-bottom: 42px;
+}
+.econom-list__item::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 12px;
+    background: url(../img/path-tick2.svg);
+    background-size: 14px 12px;
+    top:9px;
+    left:1px;
+}
+.econom-tariff {
+    border:1px solid rgba(44, 46, 63, 0.3);
+}
+.prices-about {
+    display: flex;
+    flex-direction: column;
+    max-width: 304px;
+    min-height: 596px;
+    margin-left: 111px;
+}
+.prices-about__heading {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    line-height: 90px;
+    font-weight: 500;
+    color:#2c2e3f;
+    margin-bottom: 53px;
+    margin-top: 108px;
+}
+.prices-about__heading::after {
+    content: '';
+    position: absolute;
+    width: 175px;
+    height: 3px;
+    background-color:#FE7865;
+    top:110px;
+    left:1px;
+}
+.prices-about__description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color:rgba(44, 46, 63, 0.7);
+    margin-bottom: 60px;
+}
+.prices-about__call {
+    display: flex;
+    flex-direction: column;
+}
+.prices-about__call-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 500;
+    color:#141517;
+    margin-left:46px;
+}
+.header-navigation__phone {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-decoration: none;
+    color:#141517;
+    margin-left: 46px;
+}
+.header-navigation__phone::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../img/phone-icon.svg) no-repeat;
+    background-size: 30px 30px;
+    top:1px;
+    left:-50px;
 }

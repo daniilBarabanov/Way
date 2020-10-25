@@ -1,0 +1,134 @@
+.page-footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    width:1220px;
+    min-height: 270px;
+    margin: 0 auto;
+}
+.destinations-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 390px;
+    height: 140px;
+}
+.destinations-list::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 189px;
+    background-color: #d7d9df;
+    top:-30px;
+    left:390px;
+}
+.footer-destinations__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.destinations-item {
+    margin-bottom: 10px;
+}
+.destinations-item:nth-child(5n){
+    margin-bottom: 0px;
+}
+.destinations-item__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color:#141517;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.footer-contacts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 390px;
+    min-height: 140px;
+}
+.footer-contacts::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 189px;
+    background-color: #d7d9df;
+    top:22px;
+    left:390px;
+}
+.footer-contacts__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 90px;
+    margin-bottom: 21px;
+}
+.footer-contacts__email {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color:#fe6865;
+    margin-left: 131px;
+    margin-bottom: 19px;
+}
+.footer-contacts__email::before {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    background: url(../img/mail-icon.svg) no-repeat;
+    background-size: 26px 20px;
+    left:-40px;
+}
+.footer-contacts__number {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color:#fe6865;
+    margin-left: 131px;
+}
+.footer-contacts__number::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../img/phone-icon-footer.svg) no-repeat;
+    background-size: 30px 30px;
+    left:-40px;
+    fill:#ffffff;
+}
+.footer-promo {
+        min-width: 390px;
+    min-height: 140px;
+}
+.footer-promo__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 49px;
+}
+.footer-promo__description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#141517;
+    opacity: 0.5;
+    width: 320px;
+    min-height: 144px;
+    margin-left: 49px;
+}

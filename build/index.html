@@ -205,8 +205,10 @@
                     <a class="prices-tariff__link" href="#">Купить тур сейчас</a>
                 </div>
                 <div class="promo-prices__tariff prices-tariff econom-tariff">
-                    <span class="econom-tariff__name">Экономный</span>
-                    <span class="econom-tariff__price">$ 1399</span>
+                    <div class="econom-tariff__top">
+                    <span class="econom-tariff__top-name">Экономный</span>
+                    <span class="econom-tariff__top-price">$ 1399</span>
+                    </div>
                     <p class="prices-tariff__description">Ознакомьтесь с перечнем того, что входит в данный пакет</p>
                     <ul class="prices-tariff__list econom-list ">
                         <li class="econom-list__item">Разработанный маршрут с гидом группы</li>
@@ -231,20 +233,22 @@
         </section>
         <section class="promo-form">
             <div class="promo-form__wrapper">
-            <p class="promo-form__heading">У вас остались вопросы?</p>
-            <p class="promo-form__description">Оставьте свой номер или e-mail и мы свяжемся с Вами</p>
-            <form class="promo-form__form">
-                <input class="promo-form__form-input" type="number" placeholder="* +7 Введите 10 цифр номера">
-                <input class="promo-form__form-input" type="email" placeholder="E-mail">
-                <button class="promo-form__from-submit" type="submit">Отправить</button>
+                <div class="promo-form__block">
+            <p class="promo-form__block-heading">У Вас остались вопросы?</p>
+            <p class="promo-form__block-description">Оставьте свой номер или e-mail и мы свяжемся с Вами</p>
+            <form class="promo-form__block-form form">
+                <input class="form__input" type="number" placeholder="* +7 Введите 10 цифр номера">
+                <input class="form__input" type="email" placeholder="E-mail">
+                <button class="form__submit" type="submit">Отправить</button>
             </form>
+            </div>
             </div>
         </section>
     </main>
     <footer class="page-footer">
         <div class="page-footer__wrapper">
             <div class="page-footer__destinations footer-destinations">
-                <p class="footer-destinations__heading">Следующие направления</p>
+                <p class="footer-destinations__heading">Следующие путешествия</p>
                 <ul class="footer-destinations__list destinations-list">
                     <li class="destinations-list__item destinations-item">
                         <a class="destinations-item__link" href="#">Марсель</a>
